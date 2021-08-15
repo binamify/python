@@ -1,19 +1,19 @@
 
 # #Patterns in python
 
-# rows = int(input("Enter number of rows: "))
+ rows = int(input("Enter number of rows: "))
 
 # #Code1
-# for i in range(rows):
-#     for j in range(i+1):
-#         print("*", end="")
-#     print("\n")
+ for i in range(rows):
+     for j in range(i+1):
+         print("*", end="")
+     print("\n")
 
 # #Code2
-# for i in range(rows):
-#     for j in range(i+1):
-#         print(j+1, end=" ")
-#     print("\n")
+ for i in range(rows):
+     for j in range(i+1):
+         print(j+1, end=" ")
+     print("\n")
 
 #Result
 #	Code1				Code2
